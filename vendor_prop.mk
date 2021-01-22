@@ -254,3 +254,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger.phrase.adsp.level=40 \
     ro.vendor.audio.soundtrigger.user.adsp.level=60 \
     ro.vendor.audio.soundtrigger.training.level=50
+
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.disable_init_blank=true \
+    ro.charger.enable_suspend=true
