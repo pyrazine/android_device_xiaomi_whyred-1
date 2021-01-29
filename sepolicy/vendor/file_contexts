@@ -79,3 +79,6 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
+
+# Widevine
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.3-service.widevine   u:object_r:hal_drm_widevine_exec:s0
